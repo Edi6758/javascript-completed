@@ -45,3 +45,13 @@ for (const chave in pessoa) {
   console.log("for...in:", `${chave}: ${pessoa[chave]}`);
 }
 
+const objs=document.getElementsByTagName("div")
+let num = [10,20,30,40]
+
+for(o of  objs){
+    console.log(o.innerHTML = "curso")
+}
+
+for(o in objs){
+    console.log(objs[0].innerHTML)
+}
